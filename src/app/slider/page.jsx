@@ -1,21 +1,14 @@
 "use client";
 import { useState } from "react";
 
-const Person = [
+const person = [
   {
     id: 1,
-
   },
 ];
 
 export default function Home() {
-  const [Review, SetReview] = useState;
+  const [review, setReview] = useState(person);
 
-  return (
-    <div>
-      <button><</button>
-
-      <button></button>
-    </div>
-  );
+  return <div>hello</div>;
 }
